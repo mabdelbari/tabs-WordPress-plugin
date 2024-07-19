@@ -1,0 +1,36 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "tabs-wp-plugin/tabs-block",
+  "version": "1.0.0",
+  "title": "Tabs WP Plugin",
+  "category": "common",
+  "icon": "smiley",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js",
+  "attributes": {
+    "tabs": {
+      "type": "array",
+      "default": [
+        {
+          "title": "Tab 1",
+          "content": "tab-1",
+          "headTextColor": "#fff",
+          "headBackColor": "#4f46e5",
+          "contentTextColor": "#fff",
+          "contentBackColor": "#4f46e5"
+        },
+        {
+          "title": "Tab 2",
+          "content": "tab-2",
+          "headTextColor": "#fff",
+          "headBackColor": "#4f46e5",
+          "contentTextColor": "#fff",
+          "contentBackColor": "#4f46e5"
+        }
+      ]
+    }
+  }
+}
